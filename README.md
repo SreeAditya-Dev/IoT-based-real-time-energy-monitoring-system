@@ -12,7 +12,7 @@ This project consists of four main components:
    - Live data displayed on dashboard
 
 2. **Energy Theft Detection**
-   - Identifies sudden current spikes using MQ3 sensor
+   - Create the load using DC motor and Vibrating sensor
    - Triggers buzzer and sends alerts on detection
    - Visual alerts in dashboard
 
@@ -63,7 +63,6 @@ This project consists of four main components:
    - WiFi
    - HTTPClient
    - ArduinoJson
-   - LiquidCrystal_I2C (if using LCD)
 
 2. Update the following in the ESP32 code:
    - WiFi credentials (SSID and password)
